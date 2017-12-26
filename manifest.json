@@ -1,0 +1,48 @@
+{
+    "name": "ComÊxito - Consultoria e Treinamento em Sistemas",
+    "short_name": "ComÊxito",
+    "description": "Consultoria e Treinamento em Sistemas",
+    "version": "0.0.0.1",
+    "default_locale": "pt_BR",
+    "display": "browser",
+    "offline_enabled": "true",
+    "background_color": "#D03236",
+    "theme_color": "#D03236",
+    "manifest_version": 2,
+    "start_url": "http://comexito.com.br/",
+    "homepage_url": "http://comexito.com.br/",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "icon": "http://comexito.com.br/site3/assets/images/logo_pequena.png",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "play",
+            "id": "com.google.samples.apps.iosched"
+        }
+    ],    
+    "app": {
+        "urls": [
+            "https://comexito.com.br/"
+        ],
+        "launch": {
+            "web_url": "https://comexito.com.br/"
+        },
+        "permissions": [
+            "identity",
+            "serial",
+            "storage",
+            "activeTab",
+            "webview",
+            "videoCapture",
+            "unlimitedStorage"
+        ]
+    },
+    "icons": [
+        {
+            "src": "http://comexito.com.br/site3/assets/images/logo_pequena.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ]
+}
